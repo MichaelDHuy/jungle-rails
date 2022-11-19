@@ -13,7 +13,16 @@ Rails.application.routes.draw do
   resources :orders, only: [:create, :show]
 
    # Route to About Us page
-   get '/about' => 'about#index'
+    get '/about' => 'about#index'
+
+    resources :users, only: [:new, :create]
+
+    # Routes for login / logout
+    get '/login' => 'sessions#new'
+    post '/login' => 'sessions#create'
+    get '/logout' => 'sessions#destroy'
+  
+    # Routes for admin dashboard, products, categories
 
   namespace :admin do
     root to: 'dashboard#show'

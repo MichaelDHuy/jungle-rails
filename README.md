@@ -2,6 +2,21 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Feature implementations
+  1. User-authentication - Use has_secure_password and bcyrpt, checks if user is "unique" before registering to database.
+  2. Admin-categories - Allow admin to create categories and add new products.
+  3. Admin-basic-authentication - Use http_basic_authenticate_with/.evn to perform a simple Admin login check.
+  4. Dashboard(for Admin) - Add a count table for the number of categories and products in the app.
+  5. Order-details - Add an order summary page upon successful transaction.
+  6. Sold-out-badge - Add sold out icon and shows if product inventory is 0.
+
+## Bug fixes
+  1. Empty-cart-UI - Add UI for empty cart and redirect link to home page.
+  2. Money-formatting - Add method to show "$"sign in front of signumeric values which reflect prices.
+
+## Testing
+  Rspec, Cypress
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
@@ -29,3 +44,5 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Screenshots

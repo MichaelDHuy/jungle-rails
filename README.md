@@ -46,3 +46,8 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Stripe
 
 ## Screenshots
+!["Product Page"](https://github.com/MichaelDHuy/jungle-rails/blob/master/docs/product-home-page.png?raw=true)
+
+!["Category Page"](https://github.com/MichaelDHuy/jungle-rails/blob/master/docs/category-page.png?raw=true)
+
+!["Order Cart Page"](https://github.com/MichaelDHuy/jungle-rails/blob/master/docs/order-cart-page.png?raw=true)
